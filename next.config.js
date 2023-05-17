@@ -7,16 +7,16 @@ module.exports = withBundleAnalyzer({});
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  // images: {
-  //   unoptimized: true,
-  // },
+  images: {
+    unoptimized: true,
+  },
   // experimental: {
   //   outputFileTracingIncludes: {
   //     outputFileTracingRoot: './',
   //   },
   // },
   trailingSlash: true,
-  // output: "standalone",
+  output: "export",
   // distDir: 'out',
   // Optional: Add a trailing slash to all paths `/about` -> `/about/`
   // trailingSlash: true,
